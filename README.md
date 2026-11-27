@@ -28,6 +28,12 @@ pake 'https://translate.google.com/?sl=auto&tl=zh-CN&op=translate' --name pake-g
 pake 'https://ys.mihoyo.com/cloud/#/' --name pake-genshincloud --icon 'https://webstatic.mihoyo.com/common/clgm-web-app/ys/img/logo_home_header.82e54fa5.png'
 ```
 
+云·崩坏：星穹铁道使用以下指定图标重新打包：
+
+```sh
+pake 'https://sr.mihoyo.com/cloud/#/' --name pake-hsrcloud --icon 'https://webstatic.mihoyo.com/common/clgm-web-app/sr/img/logo_home_header.d98f2de5.png'
+```
+
 其他应用使用表格中的来源地址，并将 `--name` 设置为对应目录名。更多参数可运行 `pake --help` 查看。
 
 ## 许可证
